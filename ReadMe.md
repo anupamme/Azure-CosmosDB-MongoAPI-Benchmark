@@ -1,6 +1,6 @@
 # YCSB Benchmark for Cosmos DB Mongo API 
 
-This is a **step-by-step** guide to run [YCSB Benchmark](https://github.com/brianfrankcooper/YCSB)),  against [Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction)  [MongoDB API](https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb/mongodb-introduction) . 
+This is a **step-by-step** guide to run [YCSB Benchmark](https://github.com/brianfrankcooper/YCSB),  against [Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction)  [MongoDB API](https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb/mongodb-introduction) . 
 
 ## Step 1: Setting up the Azure Cosmos DB Mongo API Environment.
 
@@ -30,7 +30,7 @@ This is a **step-by-step** guide to run [YCSB Benchmark](https://github.com/bria
 
 ### 1. Select a client vm
 - We use a 8 core VM because we can run more parallel threads (128 in number).
-- In [Azure](https://ms.portal.azure.com/#create/Microsoft.VirtualMachine-ARM), just make sure this VM is in the same region as CosmosDB instance created in previous step.
+- In [Azure](https://ms.portal.azure.com/#create/Microsoft.VirtualMachine-ARM), just make sure this VM is in the same region as CosmosDB instance created in the previous step.
 - Also use Ubuntu Server 20.04 (you can try others as well)
 
 ### 2. Prepare the client vm
